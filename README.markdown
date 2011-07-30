@@ -1,16 +1,14 @@
 # Scripture Link
 
-Some basic markup:
-  
+Start with:
     Recently I started reading the bible. I started with <span class="scripture">Isaiah 40:8;</span>
     then moved onto <span>Matthew 22:29</span> and finished with <span class="scripture">John 5:39; 16:13-15; 17:17;</span> 
 
-## somefile.js
+Apply:
 
     $('.scripture').scriptureLink();
 
-Turns into:
-
+Finish with:
     Recently I started reading the bible.  I started with <a href="http://www.gnpcb.org/esv/search/?q=Isaiah+40:8;" target="_blank">Isaiah 40:8;</a>
     then moved onto <span>Matthew 22:29</span> and finished with <a href="http://www.gnpcb.org/esv/search/?q=John+5:39;+16:13-15;+17:17;" target="_blank">John 5:39; 16:13-15; 17:17;</a>
 
